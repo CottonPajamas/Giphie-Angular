@@ -44,11 +44,10 @@ Setting up the Angular application
 
 6. To like a GIF, simply click the 'Like' button. Click again if you wish to un-like it.
 <br /><br />
-Note: In the event that you face issues connecting to the java server due to your chrome's origin policy, run this in cmd (if on windows)
+Note: In the event that you face issues connecting to the java server due to your chrome's origin policy, run this in cmd (if on windows). This will open a browser with web security disabled allowing you to access the TestServer.
 >>"C:\Program Files\Google\Chrome\Application\chrome.exe" --user-data-dir="C:/Chrome dev session" --disable-web-security<br />
 
-(Replace the directory according to wherever your chrome browser is installed.<br />
-This will open a browser with web security disabled allowing you to access the TestServer.
+(Replace the directory according to wherever your chrome browser is installed.)<br />
 
 
 <br /><br /><br />
