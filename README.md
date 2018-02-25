@@ -23,7 +23,7 @@ Employed the use of infinite-scroll (as opposed to loading the entire list of da
 <br />
 <br />
 <br />
-Instructions:<br />
+Instructions:<br /><br />
 
 
 Setting up the Angular application
