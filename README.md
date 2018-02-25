@@ -1,2 +1,2 @@
 # SPA-using-Angular
-A single-page applications (SPA) using Angular and Java (Back-end)
+A single-page application (SPA) using Angular with JavaEE as its back-end.
