@@ -1,0 +1,42 @@
+
+
+ <!-- Search Form -->
+ <br>
+ <div (swiperight)="swipeRight()" (swipeleft)="swipeLeft()">
+    <mat-form-field class="example-form-field">
+      <input matInput name="searchQuery" type="text" placeholder="Search..." [(ngModel)]="searchQuery" (change)="searchGiphy()"/>
+      <button mat-button class="btn btn-secondary disabled" *ngIf="searchQuery" matSuffix mat-icon-button aria-label="Clear" (click)="searchQuery=''">
+        <mat-icon>close</mat-icon>
+      </button>
+    </mat-form-field>
+ </div>
+
+
+
+<!-- Dynamic Material Card Layout -->
+<div *ngIf=isShow>
+  <p>About {{ dataRetrieved.length }} results found.</p>
+  <div class="search-results" infiniteScroll [infiniteScrollDistance]="0" [infiniteScrollThrottle]="2" (scrolled)="onScroll()">
+    <mat-card class="card text-white bg-secondary mb-3" *ngFor="let d of dataDislayed; index as i" [attr.data-index]="i" (swiperight)="swipeRight()" (swipeleft)="swipeLeft()">
+        <mat-card-content>
+          <label>{{ d.title.toUpperCase() }}</label>
+          <img mat-card-image src="{{ d.images.original.url }}" (dblclick)="toggleFav(i)"/>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button class="btn btn-secondary" (click)="toggleFav(i)" style="position:relative;margin-left: -70%;">
+            <i class="material-icons md-18" [class.red-color]="d.rating == '1'">favorite</i> Like
+          </button>
+        </mat-card-actions>
+      </mat-card>
+  </div>
+</div>
+
+
+<style>
+  .search-results {
+    height: 100%;
+    overflow-y: scroll;
+  }
+</style>
+
+

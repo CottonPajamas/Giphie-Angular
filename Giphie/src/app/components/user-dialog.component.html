@@ -1,0 +1,16 @@
+<div>
+  <h2 mat-dialog-title>User: </h2>
+  <mat-dialog-content>
+    <mat-form-field class="example-form-field">
+      <input matInput type="text" placeholder="Please enter a user name..." [(ngModel)]="userInput"/>
+      <button mat-button *ngIf="userInput" matSuffix mat-icon-button aria-label="Clear" (click)="userInput=''">
+        <mat-icon>close</mat-icon>
+      </button>
+    </mat-form-field>
+  </mat-dialog-content>
+  <br>
+  <mat-dialog-actions>
+    <button (click)="onConfirm()">Confirm</button>&nbsp;&nbsp;&nbsp;&nbsp;
+    <button (click)="onCancel()">Cancel</button>
+  </mat-dialog-actions>
+</div>

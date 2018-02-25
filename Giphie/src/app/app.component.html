@@ -1,0 +1,88 @@
+
+<!-- Navigation Bar -->
+<div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" routerLink="/TestServer/trending">Giphie</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/TestServer/trending">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" (click)="openDialog()">User<span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+<!-- <h3 class="text-primary">Giphie</h3> -->
+
+<br>
+
+<!-- Tab Control -->
+<div>
+  <div class="container" style="max-width:700px" (swiperight)="swipeRight()" (swipeleft)="swipeLeft()" >
+    <div class="row valign-wrapper">
+      <div class="col s6 offset-s3 valign">
+        <div class="card blue-grey darken-1">
+          <div class="card-content white-text">
+            <mat-card class="card text-white bg-secondary mb-3">
+              <mat-card-content class="primary-nav">
+                <mat-tab-group [(selectedIndex)]="pageIndex">
+                  <mat-tab label="Tab 1">
+                    <ng-template mat-tab-label>
+                      <a routerLink="/TestServer/trending"><mat-icon style="min-width: 117px; min-height: 36px;">home</mat-icon></a>
+                    </ng-template>
+                  </mat-tab>
+                  <mat-tab label="Tab 2">
+                    <ng-template mat-tab-label>
+                      <a routerLink="/TestServer/search"><mat-icon style="min-width: 125px; min-height: 36px;">search</mat-icon></a>
+                    </ng-template>
+                  </mat-tab>
+                  <mat-tab label="Tab 3">
+                    <ng-template mat-tab-label>
+                      <a routerLink="/TestServer/favourites"><mat-icon style="min-width: 117px; min-height: 36px;">favorite</mat-icon></a>
+                    </ng-template>
+                  </mat-tab>
+                </mat-tab-group>
+              </mat-card-content>
+              <div>
+                <mat-card-content class="primary-nav">
+                  <div class="demo-tab-content">
+                    <strong class="style1">Current User: {{ user }}</strong>
+                    <router-outlet></router-outlet>
+                  </div>
+                </mat-card-content>
+              </div>
+            </mat-card>   
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  
+<style>
+/* This ensures the content within the mat-card-content is centered */
+.primary-nav {
+    text-align: center;
+    border-radius: 4px;
+    overflow: hidden;
+}
+/* The two below ensures the entire mat-card is centered */
+.style1 {
+  display: flex;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+</style>
+
