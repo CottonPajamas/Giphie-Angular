@@ -51,7 +51,7 @@ Note: In the event that you face issues connecting to the java server due to you
 
 
 <br /><br /><br />
-Setting up the Angular application
+Setting up the Java server
 
 1. Ensure that the appropriate java SDK is used in your IDE.
 
