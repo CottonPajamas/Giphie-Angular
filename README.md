@@ -23,7 +23,7 @@ Employed the use of infinite-scroll (as opposed to loading the entire list of da
 <br />
 <br />
 <br />
-Instructions:
+Instructions:<br />
 
 
 Setting up the Angular application
@@ -56,7 +56,7 @@ Setting up the Angular application
 
 1. Ensure that the appropriate java SDK is used in your IDE.<br />
 
-2. Create the required database by importing the .sql file located in the 'myDatabase' folder to your mysql database.<br /><br />
+2. Create the required database by importing the .sql file located in the 'myDatabase' folder to your mysql database.<br />
 
 3. Deploy your server.<br />
 
