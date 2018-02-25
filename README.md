@@ -62,19 +62,23 @@ Setting up the Angular application
 
 >>ng serve
 
-5. If you wish to change your username, simply click the 'User' tab in the navigation bar which will bring up a dialog for you to change your username.
+5. Open your browser and enter this url link:
 
-6. To like a GIF, simply click the 'Like' button. Click again if you wish to un-like it.
+>>http://localhost:4200/TestServer
+
+6. If you wish to change your username, simply click the 'User' tab in the navigation bar which will bring up a dialog for you to change your username.
+
+7. To like a GIF, simply click the 'Like' button. Click again if you wish to un-like it.
 <br /><br />
 Note: In the event that you face issues connecting to the java server due to your chrome's origin policy, run this in cmd (if on windows). This will open a browser with web security disabled allowing you to access the TestServer. (Replace the directory according to wherever your chrome browser is installed.)
 >>"C:\Program Files\Google\Chrome\Application\chrome.exe" --user-data-dir="C:/Chrome dev session" --disable-web-security<br />
 
-7. To deploy to your server, run the following:
+8. To deploy to your server, run the following:
 >>ng build --prod --aot --deploy-url TestServer
 
-8. Copy all the files in the newly created 'dist' folder in your Giphie project to TestServer's 'web' folder.
+9. Copy all the files in the newly created 'dist' folder in your Giphie project to TestServer's 'web' folder.
 
-9. Clean and deploy your server.
+10. Clean and deploy your server.
 
 
 <br /><br /><br />
