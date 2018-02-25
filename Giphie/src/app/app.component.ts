@@ -17,7 +17,7 @@ export class AppComponent {
   user = '';
 
   constructor(private router:Router, public dialog: MatDialog, private userSvc: UserService) {
-    router.navigateByUrl("/TestServer/trending");
+    router.navigateByUrl("/TestServer");
     this.user = this.userSvc.getUser();
   }
 
