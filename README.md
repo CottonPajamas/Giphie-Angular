@@ -26,6 +26,6 @@ Setting up the Angular application
 
 
 General techincal information:
-Angular _
-JavaEE7 with Payara Server 4.1.2.174 _
-MySql Server _
+Angular <br />
+JavaEE7 with Payara Server 4.1.2.174 <br />
+MySql Server <br />
