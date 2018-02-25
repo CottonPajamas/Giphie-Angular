@@ -5,7 +5,7 @@ This repository includes both the source codes for the SPA created using Angular
 
 List of GIFs are retrieved using Giphy's public API.
 
-
+<br />
 Instructions:
 
 
@@ -24,7 +24,7 @@ Setting up the Angular application
 >>ng serve
 
 
-
+<br /><br />
 General techincal information:
 Angular <br />
 JavaEE7 with Payara Server 4.1.2.174 <br />
