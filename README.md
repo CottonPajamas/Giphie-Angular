@@ -23,6 +23,15 @@ Employed the use of infinite-scroll (as opposed to loading the entire list of da
 <br />
 <br />
 <br />
+Screenshots:<br /><br />
+![Screenshot](/Screenshots/NavigationBar.jpg?raw=true "Main Screen with navigation bar clicked.")
+![Screenshot](/Screenshots/SearchEntry.jpg?raw=true "Searching...")
+![Screenshot](/Screenshots/SearchResult.jpg?raw=true "Search Result")
+
+
+<br />
+<br />
+<br />
 Instructions:<br /><br />
 
 
