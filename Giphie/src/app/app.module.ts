@@ -28,10 +28,10 @@ import { UserDialogComponent } from './components/user-dialog.component';
 
 // Here we specify the diff routes that we want our webapp to have and store it in an array. [Only these two cos we wanna refresh these pages]
 const appRoutes: Routes = [
-  {path:'TestServer/trending', component:TrendingComponent},
+  {path:'TestServer', component:TrendingComponent},
   {path:'TestServer/search', component:SearchComponent},
   {path:'TestServer/favourites', component:UserComponent},
-  { path: "**", redirectTo: '/', pathMatch: 'full'}
+  { path: "**", redirectTo: '/TestServer', pathMatch: 'full'}
 ];
 
 
