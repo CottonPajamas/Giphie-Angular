@@ -82,7 +82,7 @@ Note: In the event that you face issues connecting to the java server due to you
 <br /><br /><br />
 Setting up the Java server
 
-1. Ensure that the appropriate java SDK is used in your IDE.
+1. Ensure that you are using the correct Java SDK (7 and above).
 
 2. Create the required database by importing the .sql file located in the 'myDatabase' folder to your mysql database.
 
