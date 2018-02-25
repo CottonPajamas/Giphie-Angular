@@ -52,6 +52,16 @@ This will open a browser with web security disabled allowing you to access the T
 
 
 <br /><br /><br />
+Setting up the Angular application
+
+1. Ensure that the appropriate java SDK is used in your IDE.<br />
+
+2. Create the required database by importing the .sql file located in the 'myDatabase' folder to your mysql database.<br /><br />
+
+3. Deploy your server.<br />
+
+
+<br /><br /><br />
 General technical information:<br />
 Angular <br />
 JavaEE7 with Payara Server 4.1.2.174 <br />
