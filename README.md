@@ -1,5 +1,5 @@
 # Giphie
-A single-page application (SPA) using Angular with JavaEE as its back-end.
+A single-page application (SPA) using Angular 5 with JavaEE as its back-end.
 
 This repository includes both the source codes for the SPA created using Angular as well as the java servlets. Java servlets are needed to create the necessary APIs for the front-end application to communicate with the mysql database server. These APIs will allow the user to save a GIF of his/her choosing (depending on their custom-defined name - default will be set as 'Default'), retrieve a list of their saved GIFs and remove any previously saved (aka 'liked') GIFs.
 
@@ -62,6 +62,6 @@ Setting up the Java server
 
 <br /><br /><br />
 General technical information:<br />
-Angular <br />
+Angular 5<br />
 JavaEE7 with Payara Server 4.1.2.174 <br />
 MySql Server <br />
