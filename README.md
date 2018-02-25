@@ -43,7 +43,7 @@ Setting up the Angular application
 5. If you wish to change your username, simply click the 'User' tab in the navigation bar which will bring up a dialog for you to change your username.
 
 6. To like a GIF, simply click the 'Like' button. Click again if you wish to un-like it.
-
+<br /><br />
 Note: In the event that you face issues connecting to the java server due to your chrome's origin policy, run this in cmd (if on windows)
 >>"C:\Program Files\Google\Chrome\Application\chrome.exe" --user-data-dir="C:/Chrome dev session" --disable-web-security<br />
 
@@ -54,11 +54,11 @@ This will open a browser with web security disabled allowing you to access the T
 <br /><br /><br />
 Setting up the Angular application
 
-1. Ensure that the appropriate java SDK is used in your IDE.<br />
+1. Ensure that the appropriate java SDK is used in your IDE.
 
-2. Create the required database by importing the .sql file located in the 'myDatabase' folder to your mysql database.<br />
+2. Create the required database by importing the .sql file located in the 'myDatabase' folder to your mysql database.
 
-3. Deploy your server.<br />
+3. Deploy your server.
 
 
 <br /><br /><br />
