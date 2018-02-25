@@ -6,6 +6,22 @@ This repository includes both the source codes for the SPA created using Angular
 List of GIFs are retrieved using Giphy's public API.
 
 <br />
+Features:<br />
+Implemented the SPA using bootstrap.<br />
+Able to be converted into a mobile web application from any mobile browser.<br />
+Used Angular Material for various components and functionalities.<br />
+  -Tabs<br />
+  -Card<br />
+  -Input<br />
+  -Dialog<br />
+  -Form<br />
+  -Button<br />
+Used hammerjs for swiping right and left when in mobile mode.<br />
+Employed the use of infinite-scroll (as opposed to loading the entire list of data on the screen all at once).<br />
+
+
+
+<br />
 Instructions:
 
 
