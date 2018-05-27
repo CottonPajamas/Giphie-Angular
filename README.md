@@ -7,16 +7,22 @@ List of GIFs are retrieved using Giphy's public API.
 
 <br />
 Features:<br />
+
 Implemented the SPA using bootstrap.<br />
+
 Able to be converted into a mobile web application from any mobile browser.<br />
+
 Used Angular Material for various components and functionalities.<br />
-  &nbsp&nbsp&nbsp-Tabs<br />
-  &nbsp&nbsp&nbsp-Cards<br />
-  &nbsp&nbsp&nbsp-Input<br />
-  &nbsp&nbsp&nbsp-Dialog<br />
-  &nbsp&nbsp&nbsp-Form<br />
-  &nbsp&nbsp&nbsp-Buttons<br />
+
+- Tabs<br />
+- Cards<br />
+- Input<br />
+- Dialog<br />
+- Form<br />
+- Buttons<br />
+
 Used hammerjs for swiping right and left when in mobile mode.<br />
+
 Employed the use of infinite-scroll (as opposed to loading the entire list of data on the screen all at once).<br />
 
 
