@@ -106,7 +106,9 @@ Note: In the event that you face issues connecting to the java server due to you
 
 
 <br /><br /><br />
-General technical information:<br />
-Angular 5<br />
-JavaEE7 with Payara Server 4.1.2.174 <br />
-MySql Server <br />
+
+## General technical information
+
+- Angular 5<br />
+- JavaEE7 with Payara Server 4.1.2.174 <br />
+- MySql Server <br />
