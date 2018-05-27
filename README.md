@@ -10,12 +10,12 @@ Features:<br />
 Implemented the SPA using bootstrap.<br />
 Able to be converted into a mobile web application from any mobile browser.<br />
 Used Angular Material for various components and functionalities.<br />
-  -Tabs<br />
-  -Cards<br />
-  -Input<br />
-  -Dialog<br />
-  -Form<br />
-  -Buttons<br />
+  &nbsp-Tabs<br />
+  &nbsp-Cards<br />
+  &nbsp-Input<br />
+  &nbsp-Dialog<br />
+  &nbsp-Form<br />
+  &nbsp-Buttons<br />
 Used hammerjs for swiping right and left when in mobile mode.<br />
 Employed the use of infinite-scroll (as opposed to loading the entire list of data on the screen all at once).<br />
 
