@@ -6,7 +6,8 @@ This repository includes both the source codes for the SPA created using Angular
 List of GIFs are retrieved using Giphy's public API.
 
 <br />
-Features:<br />
+
+## Features
 
 Implemented the SPA using bootstrap.<br />
 
@@ -29,7 +30,10 @@ Employed the use of infinite-scroll (as opposed to loading the entire list of da
 <br />
 <br />
 <br />
-Screenshots:<br /><br />
+
+## Screenshots:
+
+<br />
 
 
 
@@ -51,10 +55,11 @@ Screenshots:<br /><br />
 <br />
 <br />
 <br />
-Instructions:<br /><br />
+
+## Instructions:
 
 
-Setting up the Angular application
+### Setting up the Angular application
 
 1. Create an api key with Giphy at https://developers.giphy.com
 
@@ -90,7 +95,8 @@ Note: In the event that you face issues connecting to the java server due to you
 
 
 <br /><br /><br />
-Setting up the Java server
+
+### Setting up the Java server
 
 1. Ensure that you are using the correct Java SDK (7 and above).
 
