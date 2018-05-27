@@ -5,7 +5,8 @@ This repository includes both the source codes for the SPA created using Angular
 
 List of GIFs are retrieved using Giphy's public API.
 
-<br />
+<br /><br />
+
 
 ## Features
 
@@ -94,7 +95,7 @@ Note: In the event that you face issues connecting to the java server due to you
 >>"C:\Program Files\Google\Chrome\Application\chrome.exe" --user-data-dir="C:/Chrome dev session" --disable-web-security<br />
 
 
-<br /><br /><br />
+<br />
 
 ### Setting up the Java server
 
