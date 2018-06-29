@@ -111,8 +111,11 @@ Note: In the event that you face issues connecting to the java server due to you
 ## General technical information
 
 - Angular 5<br />
+
 - JavaEE7 with Payara Server 4.1.2.174 <br />
+
 - MySQL 5.7.20-log MySQL Community Server (GPL)<br />
+
 - MySQL Workbench 6.3<br />
 
 
